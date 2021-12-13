@@ -1,0 +1,101 @@
+body{
+    height: 100%;
+    background-color: #f5f5f5;
+}
+.nav-item{
+    font-size: 13px;
+}
+.konten{
+    min-height: 100%;
+
+    /* Equal to height of footer */
+    /* But also accounting for potential margin-bottom of last child */
+    margin-bottom: 0px;
+}
+.footer{
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    background-color: white;
+}
+.imglogo{
+    width: 100%;
+    height: auto
+}
+.img-item{
+    width: 100%;
+    max-height: 100%;
+}
+.box{
+    border-width: 5px !important;
+    background-color: white;
+    padding: 25px;
+}
+form input{
+    font-size: 18px;
+}
+form textarea{
+    font-size: 20px;
+}
+.counter-header-red{
+    background-color: #FADFDF;
+    color: #333333;
+}
+.counter-header-yellow{
+    background-color: #FFF8E3;
+    color: #333333;
+}
+.counter-header-purple{
+    background-color: #ECDDFE; 
+    color: #333333;
+}
+.fac-reddot{
+    color: red;
+}
+.fac-yellowdot{
+    color: #FFA51F;
+}
+.fac-purpledot{
+    color: purple;
+}
+.poster img{
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+.booklet img{
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+.galeribox{
+    height: 100%;
+    border-width: 2px !important;
+    background-color: white;
+    padding: 5px;
+}
+.video iframe{
+    width: 100%;
+    min-height: 100%;
+}
+.qnaclick{
+    color: black;
+}
+.qnaclick:hover{
+    /* color: black; */
+    text-decoration: none;
+}
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+input[type=number] {
+    -moz-appearance:textfield; /* Firefox */
+}
